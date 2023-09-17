@@ -1,0 +1,34 @@
+{
+  "name": "xcm-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "cilint": "eslint --exc mts src",
+    "lint": "eslint --fix --ext mts src"
+  },
+  "dependencies": {
+    "@polkadot/api": "^10.1.4",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "log4js": "^6.9.1",
+    "node-fetch": "^2.6.7",
+    "node-pg-migrate": "^6.2.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "pg": "^8.7.3",
+    "process": "^0.11.10",
+    "prom-client": "^14.0.1",
+    "web3-utils": "^1.9.0"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.5",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.36.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}

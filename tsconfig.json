@@ -1,0 +1,16 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "target": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/*.mts"
+  ],
+}
